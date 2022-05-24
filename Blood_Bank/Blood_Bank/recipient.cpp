@@ -115,6 +115,7 @@ void recipient::Login() {
     {
         if (id1 == v[i].id && password1 == v[i].password)
         {
+            fout.close();
             int n=0;
             do {
                 cout << "welcom ";
@@ -144,7 +145,7 @@ void recipient::Login() {
                     cout << "enter right choose\n";
 
             } while (n != 4);
-            fout.close();
+            
         }
     }
     if (!flag)
@@ -250,7 +251,7 @@ void recipient::request(string bloodf) {
                 cin >> n;
                 if (n == 1) {
                     cout << "we will confirm about hospital " << endl;
-                    update_bloood(R.your_blood, 0);
+                    update_bloood(bloodf, 0);
                 }
                 else {
                     cout << "sorry we can't help you";
@@ -263,7 +264,7 @@ void recipient::request(string bloodf) {
                     R.your_need--;
                     it->second--;
                 }
-                update_bloood(R.your_blood, it->second);
+                update_bloood(bloodf, it->second);
 
             }
         }
@@ -632,7 +633,7 @@ void recipient::Delete(string id) {
     userdata p;
     vector<userdata> v;
     ifstream fout;
-    fout.open("recipient.txt");
+    fout.open("Recipient.txt");
 
     ofstream temp;
     temp.open("temp.txt", ios::app);
@@ -673,6 +674,6 @@ void recipient::Delete(string id) {
     fout.close();
     temp.close();
 
-    remove("recipient.txt");
-    rename("temp.txt", "blood.txt");
+    remove("Recipient.txt");
+    rename("temp.txt", "Recipient.txt");
 }
