@@ -1,0 +1,19 @@
+﻿  Donor.cpp
+E:\data structure\project\Blood_Bank\Blood_Bank\Donor.cpp(42,23): warning C4018: '<': signed/unsigned mismatch
+E:\data structure\project\Blood_Bank\Blood_Bank\Donor.cpp(141,16): warning C4101: 'num': unreferenced local variable
+E:\data structure\project\Blood_Bank\Blood_Bank\Donor.cpp(226,27): warning C4018: '<': signed/unsigned mismatch
+E:\data structure\project\Blood_Bank\Blood_Bank\Donor.cpp(352,23): warning C4018: '<': signed/unsigned mismatch
+E:\data structure\project\Blood_Bank\Blood_Bank\Donor.cpp(514,27): warning C4018: '<': signed/unsigned mismatch
+E:\data structure\project\Blood_Bank\Blood_Bank\Donor.cpp(557,23): warning C4018: '<': signed/unsigned mismatch
+  admin.cpp
+  blood.cpp
+E:\data structure\project\Blood_Bank\Blood_Bank\blood.cpp(66,20): warning C4018: '<': signed/unsigned mismatch
+E:\data structure\project\Blood_Bank\Blood_Bank\blood.cpp(182,20): warning C4018: '<': signed/unsigned mismatch
+  recipient.cpp
+E:\data structure\project\Blood_Bank\Blood_Bank\recipient.cpp(114,23): warning C4018: '<': signed/unsigned mismatch
+E:\data structure\project\Blood_Bank\Blood_Bank\recipient.cpp(380,27): warning C4018: '<': signed/unsigned mismatch
+E:\data structure\project\Blood_Bank\Blood_Bank\recipient.cpp(486,23): warning C4018: '<': signed/unsigned mismatch
+E:\data structure\project\Blood_Bank\Blood_Bank\recipient.cpp(605,27): warning C4018: '<': signed/unsigned mismatch
+E:\data structure\project\Blood_Bank\Blood_Bank\recipient.cpp(656,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Blood_Bank.vcxproj -> E:\data structure\project\Blood_Bank\Debug\Blood_Bank.exe
